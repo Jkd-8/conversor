@@ -33,13 +33,7 @@ public class Conversor implements Comparable <Conversor>{
 
     }
 
-//    public String getConversionRates() {
-//        return conversionRates;
-//    }
-//
-//    public void setConversionRates(String conversionRates) {
-//        this.conversionRates = conversionRates;
-//    }
+
 
     public Conversor(ConversorRate conversor){
         this.conversionRates = conversor.conversion_rates();
